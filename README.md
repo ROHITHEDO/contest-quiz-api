@@ -28,3 +28,16 @@ Update connection string in:
 
 appsettings.json
 
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=.;Database=ContestDB;Trusted_Connection=True;TrustServerCertificate=True"
+  },
+
+  Run migrations:
+    update-database
+
+  Run Application
+    dotnet run
+
+  API will run on
+    https://localhost:Port
+
