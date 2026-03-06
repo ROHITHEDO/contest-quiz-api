@@ -10,6 +10,14 @@ This project is a Quiz Contest Backend built using ASP.NET Core Web API with JWT
 - SQL Server
 - JWT Authentication
 
+## Postman Collection
+
+Import the Postman collection to test the APIs.
+
+Location:
+
+Postman/contest-quiz-api.postman_collection.json
+
 ---
 
 # Setup Instructions
