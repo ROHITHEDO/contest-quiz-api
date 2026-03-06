@@ -36,7 +36,8 @@ appsettings.json
     update-database
 
 
-  API Endpoints
+
+  ### 4  API Endpoints
 Register
 
 POST /api/auth/register
@@ -72,7 +73,8 @@ Leaderboard
 
 GET /api/contest/leaderboard/{contestId}
 
-Features
+
+ ### 5 Features
 
 JWT Authentication
 
