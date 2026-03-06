@@ -35,6 +35,55 @@ appsettings.json
   Run migrations:
     update-database
 
+
+  API Endpoints
+Register
+
+POST /api/auth/register
+
+Body
+
+{
+ "name":"Rohith",
+ "email":"rohith@gmail.com",
+ "password":"123456"
+}
+Login
+
+POST /api/auth/login
+
+Returns JWT Token.
+
+Add Question (Admin / VIP)
+
+POST /api/contest/add-question
+
+Authorization: Bearer Token
+
+Add Option (Admin / VIP)
+
+POST /api/contest/add-option
+
+Submit Answers
+
+POST /api/contest/submit/{contestId}
+
+Leaderboard
+
+GET /api/contest/leaderboard/{contestId}
+
+Features
+
+JWT Authentication
+
+Role Based Authorization
+
+Contest Participation
+
+Score Calculation
+
+Leaderboard
+
   Run Application
     dotnet run
 
